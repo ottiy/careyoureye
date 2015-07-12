@@ -41,7 +41,7 @@
             android:label="@string/title_activity_vision_test" >
         </activity>
         <activity
-            android:name=".BitsOfKnowledgeActivity"
+            android:name=".TriviaActivity"
             android:label="@string/title_activity_bits_iof_knowledge" >
         </activity>
         <activity

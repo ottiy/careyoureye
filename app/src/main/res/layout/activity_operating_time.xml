@@ -54,11 +54,11 @@
     </LinearLayout>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="New Text"
+        android:text="このスマートフォンに内装されたタイマーでこのスマートフォンの画面が点いている時間を計り長すぎるなら通知します。"
         android:id="@+id/textView19"
-        android:layout_gravity="center_horizontal"
-        android:background="@drawable/sensor_text_background"/>
+        android:background="@drawable/sensor_text_background"
+        android:layout_marginTop="20dp" />
 
 </LinearLayout>

@@ -59,56 +59,71 @@
         android:layout_marginRight="10dp"
         android:layout_marginTop="20dp"/>
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="right"
-        android:background="@drawable/sensor_test_layout"
-        android:layout_marginTop="30dp"
-        android:elevation="5dp"
-        android:padding="5dp">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="動作確認"
-            android:id="@+id/textView5"
-            android:textSize="20dp"
-            android:textStyle="bold"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
         <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceSmall"
-                android:text="現在約"
-                android:id="@+id/textView6"
-                android:textSize="16dp"
-                android:layout_gravity="bottom|top" />
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:background="@drawable/sensor_test_numtext"
+            android:layout_marginTop="30dp"
+            android:elevation="5dp"
+            android:padding="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="0"
-                android:id="@+id/textView7"
-                android:textSize="60dp"/>
+                android:text="動作確認"
+                android:id="@+id/textView5"
+                android:textSize="20dp"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="現在約"
+                    android:id="@+id/textView6"
+                    android:textSize="16dp"
+                    android:layout_gravity="bottom|top" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text=" ? "
+                    android:id="@+id/textView7"
+                    android:textSize="60dp"/>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="cmセンチメートル"
+                android:id="@+id/textView8" />
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="cmセンチメートル"
-            android:id="@+id/textView8" />
-
-    </LinearLayout>
+        <ImageView
+            android:layout_width="138dp"
+            android:layout_height="245dp"
+            android:id="@+id/imageView14"
+            android:layout_gravity="left|bottom"
+            android:scaleType="fitCenter"
+            android:src="@drawable/smart_phone_appdistance"
+            android:layout_margin="10dp"
+            android:layout_marginRight="20dp" />
+    </FrameLayout>
 
 </LinearLayout>
