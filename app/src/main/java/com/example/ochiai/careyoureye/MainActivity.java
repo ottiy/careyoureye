@@ -1,14 +1,11 @@
 package com.example.ochiai.careyoureye;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-
-import java.security.PublicKey;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -24,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
     //視力検査ボタン
     public void visionTest(View v){
         // インテントのインスタンス生成
-        Intent intent = new Intent(this, VisionTestActivity.class);
+        Intent intent = new Intent(this, VisionTestStartActivity.class);
         // 次画面のアクティビティ起動
         startActivity(intent);
     }

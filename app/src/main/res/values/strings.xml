@@ -18,4 +18,5 @@
         <item>子供部屋</item>
         <item>洋室</item>
     </string-array>
+    <string name="title_activity_vision_tset">VisionTsetActivity</string>
 </resources>

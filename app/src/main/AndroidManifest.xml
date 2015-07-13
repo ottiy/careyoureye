@@ -37,7 +37,7 @@
             android:label="@string/title_activity_blue_light_cut" >
         </activity>
         <activity
-            android:name=".VisionTestActivity"
+            android:name=".VisionTestStartActivity"
             android:label="@string/title_activity_vision_test" >
         </activity>
         <activity
@@ -47,6 +47,10 @@
         <activity
             android:name=".DistanceTestActivity"
             android:label="@string/title_activity_distance_test" >
+        </activity>
+        <activity
+            android:name=".VisionTsetActivity"
+            android:label="@string/title_activity_vision_tset" >
         </activity>
     </application>
 

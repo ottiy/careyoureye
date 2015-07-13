@@ -6,12 +6,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class VisionTestActivity extends ActionBarActivity {
+public class VisionTestStartActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_vision_test);
+        setContentView(R.layout.activity_vision_test_start);
     }
 
     @Override
