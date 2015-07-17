@@ -17,7 +17,7 @@ public class DistanceActivity extends ActionBarActivity {
     }
 
     public void distanceTest(View v){
-        Intent intent = new Intent(this,DistanceTestActivity.class);
+        Intent intent = new Intent(this,DistanceTestSensorExplanationActivity.class);
         startActivity(intent);
     }
 

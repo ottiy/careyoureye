@@ -16,7 +16,7 @@ public class OperatingTimeActivity extends ActionBarActivity {
         setContentView(R.layout.activity_operating_time);
     }
     public void operatingTest(View v){
-        Intent intent = new Intent(this,OperatingTimeTestActivity.class);
+        Intent intent = new Intent(this,OperatingTimeExplanationActivity.class);
         startActivity(intent);
     }
 

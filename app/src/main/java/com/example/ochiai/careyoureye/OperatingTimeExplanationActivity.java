@@ -6,12 +6,12 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class OperatingTimeTestActivity extends ActionBarActivity {
+public class OperatingTimeExplanationActivity extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_operating_time_test);
+        setContentView(R.layout.activity_operating_time_explanation);
     }
 
     @Override

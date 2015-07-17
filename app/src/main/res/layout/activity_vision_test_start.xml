@@ -63,7 +63,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="簡易メジャー"
-                    android:id="@+id/button4" />
+                    android:id="@+id/button4"
+                    android:onClick="measure" />
 
                 <Button
                     android:layout_width="wrap_content"

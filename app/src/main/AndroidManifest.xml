@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ochiai.careyoureye" >
 
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -45,7 +47,7 @@
             android:label="@string/title_activity_bits_iof_knowledge" >
         </activity>
         <activity
-            android:name=".DistanceTestActivity"
+            android:name=".DistanceTestSensorExplanationActivity"
             android:label="@string/title_activity_distance_test" >
         </activity>
         <activity
@@ -53,9 +55,24 @@
             android:label="@string/title_activity_vision_tset" >
         </activity>
         <activity
-            android:name=".OperatingTimeTestActivity"
+            android:name=".OperatingTimeExplanationActivity"
             android:label="@string/title_activity_timer_test" >
+        </activity>
+        <activity
+            android:name=".SimpleTapeMeasureActivity"
+            android:label="@string/title_activity_simple_tape_measure" >
+        </activity>
+        <activity
+            android:name=".DynamicVisualAcuityTestActivity"
+            android:label="@string/title_activity_color_blindness" >
+        </activity>
+        <activity
+            android:name=".DynamicVisualAcuityTestNumActivity"
+            android:label="@string/title_activity_color_blindness_test_num" >
         </activity>
     </application>
 
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-feature android:name="android.hardware.camera.autofocus"/>
 </manifest>
