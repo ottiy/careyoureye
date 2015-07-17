@@ -1,76 +1,88 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="スマホから目の距離"
-            android:id="@+id/textView9"
-            android:background="@drawable/tititle_text"
-            android:layout_marginTop="20dp"
-            android:textSize="32dp"
-            android:layout_marginBottom="20dp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3" >
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="40dp"
-            android:background="#fffffea8">
+            android:layout_height="match_parent">
+
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="スマホから目の距離"
+                    android:id="@+id/textView9"
+                    android:background="@drawable/tititle_text"
+                    android:layout_marginTop="20dp"
+                    android:textSize="32dp"
+                    android:layout_marginBottom="20dp" />
 
             <LinearLayout
-                android:orientation="horizontal"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:background="#fffffea8">
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceSmall"
+                            android:text="もしスマホ（近接センサ）に"
+                            android:id="@+id/textView14"
+                            android:textColor="#ff030303" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="0"
+                            android:id="@+id/button3"></Button>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceMedium"
+                            android:id="@+id/textView10"
+                            android:text="cm以上近ずいたら通知します"
+                            android:layout_gravity="bottom"
+                            android:textColor="#ff010101" />
+                    </LinearLayout>
+                </LinearLayout>
+
+            <TextView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:background="@drawable/sensor_text_background"
+                android:text="近接センサーを使ってこのスマートフォンからあなたの頭までの距離を測定します。もしあなたの頭がこのスマートフォンに近付き過ぎていたら通知します。" />
 
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="もしスマホ（近接センサ）に"
-                    android:id="@+id/textView14"
-                    android:textColor="#ff030303" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-
-                <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="0"
-                    android:id="@+id/button3"></Button>
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceMedium"
-                    android:id="@+id/textView10"
-                    android:text="cm以上近ずいたら通知します"
-                    android:layout_gravity="bottom"
-                    android:textColor="#ff010101" />
-            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="近接センサーとは"
+                android:id="@+id/textView33"
+                android:onClick="distanceTest" />
         </LinearLayout>
+    </ScrollView>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/textView19"
-        android:background="@drawable/sensor_text_background"
-        android:text="近接センサーを使ってこのスマートフォンからあなたの頭までの距離を測定します。もしあなたの頭がこのスマートフォンに近付き過ぎていたら通知します。" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="近接センサーとは"
-        android:id="@+id/textView33"
-        android:onClick="distanceTest" />
-
-</LinearLayout>
+</RelativeLayout>

@@ -52,6 +52,10 @@
             android:name=".VisionTsetActivity"
             android:label="@string/title_activity_vision_tset" >
         </activity>
+        <activity
+            android:name=".OperatingTimeTestActivity"
+            android:label="@string/title_activity_timer_test" >
+        </activity>
     </application>
 
 </manifest>

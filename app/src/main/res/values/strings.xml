@@ -19,4 +19,5 @@
         <item>洋室</item>
     </string-array>
     <string name="title_activity_vision_tset">VisionTsetActivity</string>
+    <string name="title_activity_timer_test">TimerTestActivity</string>
 </resources>
