@@ -37,6 +37,7 @@ public class VisionTsetActivity extends ActionBarActivity {
         randallRingImageView= (ImageView)findViewById(R.id.randallRing);
         trueNum = 0;
         falseNum = 0;
+        lingsSize = 0;
         levelNum = 0.1;
         rundleRing = new int[5];
 
@@ -45,19 +46,21 @@ public class VisionTsetActivity extends ActionBarActivity {
     public void trueButton(View v){
 
         trueNum=trueNum+1;
-
+        level.setText("視力"+levelNum);
+        trueNumText.setText(trueNum+"回");
         if (trueNum>=2){
             levelNum=levelNum+0.1;
             lingsSize=7.5/levelNum;
-            randallRingImageView.setLayoutParams(new FrameLayout.LayoutParams(lingsSize, lingsSize));
+            //randallRingImageView.setLayoutParams(new FrameLayout.LayoutParams(lingsSize, lingsSize));
             trueNum=0;falseNum=0;//正解数と不正解数をリセット
         }
-        level.setText("視力"+levelNum);
-        trueNumText.setText(trueNum+"回");
+
     }
 
     public void falseButton(View v){
         falseNum=falseNum+1;
+        falseNumText.setText(falseNum+"回");
+
 
         if (falseNum >= 2){
             //ダイアログボックスを表示

@@ -1,9 +1,11 @@
 package com.example.ochiai.careyoureye;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class OperatingTimeActivity extends ActionBarActivity {
@@ -12,6 +14,10 @@ public class OperatingTimeActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_operating_time);
+    }
+    public void operatingTest(View v){
+        Intent intent = new Intent(this,OperatingTimeTestActivity.class);
+        startActivity(intent);
     }
 
     @Override

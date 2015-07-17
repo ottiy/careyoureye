@@ -62,7 +62,7 @@
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="メジャー"
+                    android:text="簡易メジャー"
                     android:id="@+id/button4" />
 
                 <Button
