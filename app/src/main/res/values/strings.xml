@@ -23,4 +23,13 @@
     <string name="title_activity_simple_tape_measure">SimpleTapeMeasureActivity</string>
     <string name="title_activity_color_blindness">ColorBlindnessActivity</string>
     <string name="title_activity_color_blindness_test_num">ColorBlindnessTestNumActivity</string>
+    <string name="title_activity_vision_tset_level09">VisionTsetLevel09Activity</string>
+    <string name="title_activity_vision_tset_level08">VisionTsetLevel08Activity</string>
+    <string name="title_activity_vision_tset_level07">VisionTsetLevel07Activity</string>
+    <string name="title_activity_vision_tset_level06">VisionTsetLevel06Activity</string>
+    <string name="title_activity_vision_tset_level05">VisionTsetLevel05Activity</string>
+    <string name="title_activity_vision_tset_level04">VisionTsetLevel04Activity</string>
+    <string name="title_activity_vision_tset_level03">VisionTsetLevel03Activity</string>
+    <string name="title_activity_vision_tset_level02">VisionTsetLevel02Activity</string>
+    <string name="title_activity_vision_tset_level01">VisionTsetLevel01Activity</string>
 </resources>

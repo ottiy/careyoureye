@@ -17,7 +17,7 @@ public class VisionTestStartActivity extends ActionBarActivity {
     }
 
     public void start(View v){
-        Intent intent = new Intent(this,VisionTsetActivity.class);
+        Intent intent = new Intent(this,VisionTsetLevel10Activity.class);
         startActivity(intent);
     }
 

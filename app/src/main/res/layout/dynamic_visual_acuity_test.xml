@@ -33,8 +33,8 @@
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
-            android:layout_gravity="right"
-            android:onClick="next" />
+            android:onClick="next"
+            android:layout_gravity="right" />
 
     </LinearLayout>
 

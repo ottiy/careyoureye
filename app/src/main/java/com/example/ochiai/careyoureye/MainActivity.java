@@ -15,7 +15,6 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
 
     //視力検査ボタン
@@ -91,8 +90,6 @@ public class MainActivity extends ActionBarActivity {
     /*public void macker(View v){
     作った人のホームページを指定
     }*/
-
-
 
 
     @Override

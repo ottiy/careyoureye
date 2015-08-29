@@ -4,6 +4,12 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.TextView;
+
+import java.util.Timer;
+import java.util.TimerTask;
+import java.util.logging.Handler;
 
 
 public class DynamicVisualAcuityTestNumActivity extends ActionBarActivity {
@@ -13,6 +19,7 @@ public class DynamicVisualAcuityTestNumActivity extends ActionBarActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.dynamic_visual_acuity_test_num);
     }
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

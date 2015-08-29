@@ -3,6 +3,10 @@
     package="com.example.ochiai.careyoureye" >
 
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
         android:allowBackup="true"
@@ -51,7 +55,7 @@
             android:label="@string/title_activity_distance_test" >
         </activity>
         <activity
-            android:name=".VisionTsetActivity"
+            android:name=".VisionTsetLevel10Activity"
             android:label="@string/title_activity_vision_tset" >
         </activity>
         <activity
@@ -70,9 +74,42 @@
             android:name=".DynamicVisualAcuityTestNumActivity"
             android:label="@string/title_activity_color_blindness_test_num" >
         </activity>
+        <activity
+            android:name=".VisionTsetLevel09Activity"
+            android:label="@string/title_activity_vision_tset_level09" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel08Activity"
+            android:label="@string/title_activity_vision_tset_level08" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel07Activity"
+            android:label="@string/title_activity_vision_tset_level07" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel06Activity"
+            android:label="@string/title_activity_vision_tset_level06" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel05Activity"
+            android:label="@string/title_activity_vision_tset_level05" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel04Activity"
+            android:label="@string/title_activity_vision_tset_level04" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel03Activity"
+            android:label="@string/title_activity_vision_tset_level03" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel02Activity"
+            android:label="@string/title_activity_vision_tset_level02" >
+        </activity>
+        <activity
+            android:name=".VisionTsetLevel01Activity"
+            android:label="@string/title_activity_vision_tset_level01" >
+        </activity>
     </application>
 
-    <uses-permission android:name="android.permission.CAMERA"/>
-    <uses-feature android:name="android.hardware.camera"/>
-    <uses-feature android:name="android.hardware.camera.autofocus"/>
 </manifest>
